@@ -1,14 +1,111 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px red dotted;
 }
 body{
     display: flex;
+    flex-direction: column;
 }
- .header{
+.header{
      display: flex;
+     background-color: #1f2937;
+     flex-direction: column;
+     color:white;
  }
- body header ul li {
-    
+
+.header-1{
+    display: flex;
+    justify-content: space-between;
+}
+.header .header-1 h2{
+    margin-left: 5vw;
+}
+
+.header .header-1 ul{
+    margin-right: 5vw;
+    list-style-type: none;
+    display: flex;
+    column-gap: 8px;
+}
+a {
+    color: #666;
+    text-decoration: none;
  }
+.header-2{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.title{
+    margin-left: 5vw;
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow:1;
+}
+.title button{
+    flex-grow: 0;
+    background-color: rgb(29, 29, 104);
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.image-1{
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
+.image-1 img{
+    max-width: 30%;
+    height: auto;
+}
+.illustration-rows{
+height: 23vh;
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 3vw;
+}
+.illustration-rows img {
+    max-width: 50%;
+    height: auto;
+}
+.illustration-1,.illustration-2,.illustration-3,.illustration-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body h2{
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    height:23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+.body-sign-up{
+    height:19vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+.sign-up{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+display: flex;
+justify-content: center;
+background-color: #1f2937;
+color: #666;
+}
